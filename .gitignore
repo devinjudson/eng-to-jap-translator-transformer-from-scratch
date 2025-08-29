@@ -1,0 +1,6 @@
+__pycache__/
+*.pt
+*.model
+*.vocab
+artifacts/
+.ipynb_checkpoints/
