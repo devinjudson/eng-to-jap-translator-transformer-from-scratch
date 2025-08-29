@@ -1,6 +1,7 @@
 # English to Japanese Translator Transformer
 
-This project is a **from-scratch Transformer neural network** (built with PyTorch) that translates English sentences into Japanese.  
+This project is a **from-scratch Transformer neural network** (built with PyTorch) that translates English sentences into Japanese.
+
 I built it as a project to gain a deep understanding of how Transformers are constructed and trained. By implementing everything from scratch (without Hugging Face), I was able to break down and visualize each component of the architecture, understand why it’s important, and explore different ways to optimize the model for speed and efficiency.
 
 ---
@@ -11,7 +12,6 @@ I built it as a project to gain a deep understanding of how Transformers are con
 - Trains a **SentencePiece tokenizer** for subword encoding
 - Implements a custom **Transformer encoder–decoder** with `nn.Transformer`
 - Trains with **teacher forcing**, **label smoothing**, and **BLEU evaluation**
-- Includes demo code to translate sentences from English → Japanese
 
 ---
 
